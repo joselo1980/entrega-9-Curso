@@ -1,13 +1,23 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
 
-// ===== TITULOS =====
-.titulo {
+// ===== BASE COMUN DE TITULOS =====
+%titulo-base {
     margin: 0;
     color: $color-primario;
+    font-weight: $peso-negrita;
+}
+
+// ===== TITULOS =====
+.titulo {
+    @extend %titulo-base;
     font-family: $fuente-titulos;
     font-size: 34px;
-    font-weight: $peso-negrita;
+    @include aparecer;
+
+    @include tablet {
+        font-size: 38px;
+    }
 
     @include escritorio {
         font-size: 42px;
@@ -15,11 +25,13 @@
 }
 
 .titulo-seccion {
-    margin: 0;
-    color: $color-primario;
+    @extend %titulo-base;
     font-family: $fuente-titulos;
     font-size: 26px;
-    font-weight: $peso-negrita;
+
+    @include tablet {
+        font-size: 28px;
+    }
 
     @include escritorio {
         font-size: 30px;
@@ -27,16 +39,14 @@
 }
 
 .subtitulo {
-    margin: 0;
-    color: $color-primario;
+    @extend %titulo-base;
     font-family: $fuente-texto;
-    font-size: 20px;
-    font-weight: $peso-negrita;
+    font-size: $texto-base + 4px;
 }
 
 // ===== TEXTOS =====
 .texto {
     margin: 0;
-    font-size: 16px;
+    font-size: $texto-base;
     font-weight: $peso-normal;
 }
