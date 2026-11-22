@@ -7,6 +7,10 @@
     grid-template-columns: 1fr;
     gap: $espacio-medio;
 
+    @include tablet {
+        grid-template-columns: 1fr 1fr;
+    }
+
     @include escritorio {
         grid-template-columns: 1fr 1fr 1fr;
     }
