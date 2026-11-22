@@ -10,14 +10,16 @@ $fuente-titulos: 'Playfair Display', serif;
 $fuente-texto: 'Lato', sans-serif;
 $peso-normal: 400;
 $peso-negrita: 700;
+$texto-base: 16px;
 
 // ===== ESPACIOS =====
 $espacio-chico: 10px;
-$espacio-medio: 20px;
-$espacio-grande: 40px;
+$espacio-medio: $espacio-chico * 2;
+$espacio-grande: $espacio-medio * 2;
 
 // ===== TRANSICIONES =====
 $transicion: 0.3s;
 
-// ===== BREAKPOINT =====
+// ===== BREAKPOINTS =====
+$tablet: 768px;
 $escritorio: 1024px;
