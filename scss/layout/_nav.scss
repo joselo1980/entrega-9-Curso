@@ -17,13 +17,13 @@
     transition: color $transicion, border-color $transicion;
 
     &:hover {
-        color: $color-acento;
-        border-bottom-color: $color-acento;
+        color: $color-acento-claro;
+        border-bottom-color: $color-acento-claro;
     }
 
     &:focus {
-        color: $color-acento;
-        outline: 2px solid $color-acento;
+        color: $color-acento-claro;
+        outline: 2px solid $color-acento-claro;
     }
 
     &:active {
