@@ -11,8 +11,9 @@
     transition: background-color $transicion, color $transicion;
 
     &:hover {
-        background-color: $color-acento;
-        border-color: $color-acento;
+        background-color: $color-acento-claro;
+        border-color: $color-acento-claro;
+        color: $color-primario;
     }
 
     &:focus {
