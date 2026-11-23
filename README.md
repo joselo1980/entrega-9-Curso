@@ -4,7 +4,15 @@ Sitio web del estudio jurídico y notarial Rodó & Asociados, de Parque Rodó, M
 
 ## Sitio publicado
 
-https://joselo1980.github.io/entrega-8-Curso/
+https://joselo1980.github.io/entrega-9-Curso/
+
+## Pre-entrega 9: SEO on-page y accesibilidad
+
+- **Meta description** propia en el `<head>` de cada una de las 5 páginas.
+- **Keywords** de cada página (estudio jurídico, abogados, escribanos, Montevideo, derecho laboral, penal, de familia, civil, escribanía, consulta legal) en el `<title>`, en el `<h1>`, en los `<h2>` y en el texto, sin repetirlas de más.
+- **Imágenes** con nombres descriptivos (por ejemplo `estatua-justicia-balanza.jpg`) y `alt` que describe cada foto.
+- **Contraste:** el dorado sobre fondo azul no llegaba a 4.5:1, así que el texto sobre azul usa un dorado más claro (`$color-acento-claro`, 5.9:1). Los textos principales superan 9:1.
+- **HTML semántico:** un solo `<h1>` por página y títulos en orden (h1 → h2 → h3).
 
 ## Pre-entrega 8: Animaciones y full-responsive
 
