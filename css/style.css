@@ -153,12 +153,12 @@
   transition: color 0.3s, border-color 0.3s;
 }
 .barra .menu-link:hover {
-  color: #b8955a;
-  border-bottom-color: #b8955a;
+  color: #d9bc8c;
+  border-bottom-color: #d9bc8c;
 }
 .barra .menu-link:focus {
-  color: #b8955a;
-  outline: 2px solid #b8955a;
+  color: #d9bc8c;
+  outline: 2px solid #d9bc8c;
 }
 .barra .menu-link:active {
   color: #f5f1ea;
@@ -280,7 +280,7 @@
 }
 
 .redes-link {
-  color: #b8955a;
+  color: #d9bc8c;
   transition: color 0.3s;
 }
 .redes-link:hover {
@@ -333,8 +333,9 @@
   transition: background-color 0.3s, color 0.3s;
 }
 .boton:hover {
-  background-color: #b8955a;
-  border-color: #b8955a;
+  background-color: #d9bc8c;
+  border-color: #d9bc8c;
+  color: #2c3e5c;
 }
 .boton:focus {
   outline: 3px solid #b8955a;
